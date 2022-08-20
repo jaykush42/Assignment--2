@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #404040;
+}
+
+#data-output{
+    width: calc(100% - 40px);
+    border: 1px solid #e8e8e8;
+    margin: 50px 20px;
+    padding: 20px;
+}
+
+#data-output tr th{
+    text-align: left;
+    font-size: 15px;
+}
