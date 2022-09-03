@@ -1,5 +1,5 @@
 [
     ["MACHINE NAME","MACHINE ID","ENERGY CONSUMED (kWh)","Active Power (MW)","Apparent Power (MVA)","Reactive Power","CURRENT (Amps)","VOLTAGE (Volts)","POWER FACTOR","IDLE TIME"],
-    ["Auto Winding Machine","machine001","0","0","0","0.0","0.0","0.0","0","0"],
-    ["Boiler\nMachine","machine004","0","0","0","0.0","0.0","0.0","0","0"]
+    ["Auto Winding Machine","machine001","0","0","0","0","0","0","0","0","0","0","0","0"],
+    ["Boiler\nMachine","machine004","0","0","0","0","0","0","0","0","0","0","0","0"]
 ]
