@@ -7,6 +7,7 @@ fetch("data.json")
     let out = "";
     for(let i=0; i<data.length; i++){
         let dataArray = data[i];
+        // console.log(data[i]);
         if(i==0){
             out += `<tr>`;
             for(let j=0; j<dataArray.length; j++){
@@ -20,8 +21,14 @@ fetch("data.json")
         }else{
             out += `<tr>`;
             for(let j=0; j<dataArray.length; j++){
-                if(j == 2 || j == 9){
-                    out += `<td><table style='width : 100%'><td>0</td><td>0</td><td>0</td></table></td>`;
+                if(j == 2 || j == 11){
+                    out += `<td>
+                    <table style='width : 100%'>
+                    <td>`+dataArray[j++]+`</td>
+                    <td>`+dataArray[j++]+`</td>
+                    <td>`+dataArray[j]+`</td>
+                    </table>
+                    </td>`;
                 }else{
                     out += `<td>`+dataArray[j]+`</td>`;
                 }
